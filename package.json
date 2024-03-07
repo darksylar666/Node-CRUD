@@ -1,0 +1,18 @@
+{
+  "name": "node-crud",
+  "version": "0.0.1",
+  "description": "Creación de un CRUD con NodeJS y MongoDB",
+  "main": "src/app.js",
+  "type": "module",
+  "scripts": {
+    "dev": "node --watch src/app.js"
+  },
+  "author": "Mauro E.C.D",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "dotenv": "^16.4.5",
+    "express": "^4.18.3",
+    "mongoose": "^8.2.1"
+  }
+}
